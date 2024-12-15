@@ -3,6 +3,8 @@
 
 Welcome to the Superstore Sales Dashboard! This project is an interactive web app that visualizes and analyzes sales data for a fictional superstore. Using Streamlit, we’ve created a user-friendly and visually appealing dashboard to explore key metrics and gain actionable insights.
 
+can be seen here: https://dashboard-superstore-yan.streamlit.app/
+
 ✨ Features
 
 
