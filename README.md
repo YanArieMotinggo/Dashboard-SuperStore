@@ -1,53 +1,69 @@
-Superstore Sales Dashboard
-Welcome to the Superstore Sales Dashboard! This project provides an interactive sales dashboard to visualize and analyze sales data for a fictional superstore. Built using Python and Streamlit, the dashboard offers insights into key metrics like sales, profit, and product performance.
+🛍️ Superstore Sales Dashboard
 
-Features
-Key Performance Indicators (KPIs):
-Total Sales
-Total Profit
-Total Quantity Sold
-Interactive Visualizations:
-Monthly sales trends
-Sales by region
-Top 10 products by sales
-Category and sub-category performance
-Filters:
-Select regions and categories to customize the dashboard view.
-How to Run the App
+
+Welcome to the Superstore Sales Dashboard! This project is an interactive web app that visualizes and analyzes sales data for a fictional superstore. Using Streamlit, we’ve created a user-friendly and visually appealing dashboard to explore key metrics and gain actionable insights.
+
+✨ Features
+
+
+📊 Key Performance Indicators (KPIs):
+Total Sales, Profit, and Quantity.
+📈 Visualizations:
+Monthly sales trends with line charts.
+Regional sales performance in bar charts.
+Top 10 products ranked by sales.
+Category and Sub-category performance with sunburst charts.
+🎛️ Interactive Filters:
+Customize the view by selecting regions and product categories.
+
+🚀 How to Run the App
+
+
 Clone the repository:
 
-bash
-Copy code
+```properties
 git clone https://github.com/YanArieMotinggo/Dashboard-SuperStore.git
+```  
+
+```properties
 cd Dashboard-SuperStore
+```  
+
 Install the dependencies:
 
-bash
-Copy code
+```properties
 pip install -r requirements.txt
+```  
+
 Run the Streamlit app:
 
-bash
-Copy code
-streamlit run app.py
+```properties
+streamlit run main.py
+```  
+
 Open your browser and navigate to the provided URL (usually http://localhost:8501).
 
-Dataset
-The dataset includes the following columns:
+📂 Dataset
 
-Order Details: Order ID, Order Date, Ship Date, Region, Customer Name
-Product Details: Product Name, Category, Sub-Category
-Metrics: Sales, Profit, Quantity, Discount
-Technologies Used
-Python for data manipulation and analysis.
-Streamlit for creating the interactive web application.
-Pandas for data cleaning and preprocessing.
-Plotly for dynamic and engaging visualizations.
-Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
-Contact
-Have questions or feedback?
+The dataset includes detailed sales records with the following columns:
 
-Email: your-email@example.com
-GitHub: YanArieMotinggo
+Order Details: Order ID, Order Date, Ship Date, Region, Customer Name.
+Product Details: Product Name, Category, Sub-Category.
+Metrics: Sales, Profit, Quantity, Discount.
+
+
+🛠️ Technologies Used
+
+
+Python: Data manipulation and analysis.
+Streamlit: Interactive web application framework.
+Pandas: Data cleaning and preprocessing.
+Plotly: Dynamic and engaging visualizations.
+
+
+🖼️ Dashboard Preview
+
+![image](https://github.com/user-attachments/assets/1a3b6340-3b54-493a-a920-f4e4ec28f650)
+
+
